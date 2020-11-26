@@ -53,28 +53,27 @@ $ brew install cookiecutter
 
 Finally, to run it based on this template, type:
 ```console
-$ cookiecutter https://github.com/lacion/cookiecutter-golang.git //使用github
-$ cookiecutter https://git.yingzhongtong.com/edgar.chen/cookiecutter_golang.git //使用gitlab:git.yingzhongtong.com
+$ cookiecutter https://github.com/cgDeepLearn/initgo.git //使用github
+$ cookiecutter https://gitlab.com/cgDeepLearn/initgo.git //使用gitlab,还有其他也类似
 ```
 
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used to customize your new project.
 
-Warning: After this point, change 'Edgar.chen', 'edgar', etc to your own information.
+Warning: After this point, change 'cgDeepLearn', 'cgdeepleanr', etc to your own information.
 
 Answer the prompts with your own desired [options](). For example:
 ```console
-full_name [Luis Morales]: Edgar Chen
+full_name [cgDeepLeanr]: cgDeepLeanr
 git_doamin:
-1 - git.yingzhongtong.com
-2 - github.com
-3 - gitlab.com
+1 - github.com
+2 - gitlab.com
 Choose from 1, 2, 3 [1]: 1
-git_user_group_name [edgar.chen]: edgar.chen
+git_user_group_name [cgdeeplearn]: cgdeeplearn
 app_name [mygolangproject]: echoserver
 project_short_description [A Golang project.]: Awesome Echo Server
-docker_hub_username [edgar]: edgar
-docker_image [lacion/docker-alpine:latest]: edgar/docker-alpine:latest
-docker_build_image [lacion/docker-alpine:gobuildimage]: edgar/docker-alpine:gobuildimage
+docker_hub_username [cgdeeplearn]: cgdeeplearn
+docker_image [cgdeeplearn/docker-alpine:latest]: cgdeeplearn/docker-alpine:latest
+docker_build_image [cgdeeplearn/docker-alpine:gobuildimage]: cgdeeplearn/docker-alpine:gobuildimage
 use_docker [y]: y
 use_git [y]: y
 use_logrus_logging [y]: y
