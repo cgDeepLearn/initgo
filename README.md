@@ -12,7 +12,7 @@ Powered by [Cookiecutter](https://github.com/audreyr/cookiecutter), Cookiecutter
 - Uses `go dep` (with optional go module support *requires go 1.11*) | `go dep`可选，go版本需1.11以上
 - injects build time and git hash at build time. | 在build时 build时间和git hash 会嵌入到提交中
 
-## Optional Integrations
+## Optional Integrations | 可选集成项
 
 - Can use [viper](https://github.com/spf13/viper) for env var config | 可以使用 `viper`做环境变量管理
 - Can use [cobra](https://github.com/spf13/cobra) for cli tools | 使用`cobra`做命令行工具
@@ -21,14 +21,14 @@ Powered by [Cookiecutter](https://github.com/audreyr/cookiecutter), Cookiecutter
 - If docker is used adds docker management commands to makefile
 - Option of TravisCI, CircleCI or None
 
-## Constraints
+## Constraints | 依赖
 
 - Uses `dep` or `mod` for dependency management | 使用 `dep` 或 `mod`做golang项目的依赖管理
 - Only maintained 3rd party libraries are used.
 
 This project now uses docker multistage builds, you need at least docker version v17.05.0-ce to use the docker file in this template, [you can read more about multistage builds here](https://www.critiqus.com/post/multi-stage-docker-builds/).
 
-## Docker
+## Docker | Docker
 
 This template uses docker multistage builds to make images slimmer and containers only the final project binary and assets with no source code whatsoever.
 
