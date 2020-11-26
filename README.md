@@ -54,16 +54,18 @@ $ brew install cookiecutter
 Finally, to run it based on this template, type:
 ```console
 $ cookiecutter https://github.com/cgDeepLearn/initgo.git //使用github
-$ cookiecutter https://gitlab.com/cgDeepLearn/initgo.git //使用gitlab,还有其他也类似
+$ cookiecutter https://gitlab.com/cgDeepLearn/initgo.git //使用gitlab,还有其他也可以添加类似配置
 ```
 
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used to customize your new project.
 
 Warning: After this point, change 'cgDeepLearn', 'cgdeepleanr', etc to your own information.
 
+`[ ]`内为默认值
+
 Answer the prompts with your own desired [options](). For example:
 ```console
-full_name [cgDeepLeanr]: cgDeepLeanr
+full_name [cgDeepLearn]: cgDeepLearn
 git_doamin:
 1 - github.com
 2 - gitlab.com
