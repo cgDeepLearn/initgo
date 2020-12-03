@@ -91,11 +91,15 @@ Select use_ci:
 Choose from 1, 2, 3 [1]: 1
 ```
 
+- 初始化项目示例运行
+
 Enter the project and take a look around: （配置完成后进入项目目录比如我们现在初始化了一个`echoserver`的项目）
 ```console
 $ cd echoserver/
 $ ls
 ```
+
+编译运行
 
 Run `make help` to see the available management commands, or just run `make build` to build your project.
 ```console
