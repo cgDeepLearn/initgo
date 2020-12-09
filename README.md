@@ -2,7 +2,7 @@
 
 <div align="center">
 	<br>
-	<a href="https://cgdeeplearn.github.io/2020/12/06/init-go">
+	<a href="https://cgdeeplearn.github.io/2020/12/06/init-go" target="_blank">
 		<img src="header.svg" width="800" height="400">
 	</a>
 	<br>
