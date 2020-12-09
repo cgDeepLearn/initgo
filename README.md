@@ -1,5 +1,13 @@
 # initgo
 
+<div align="center">
+	<br>
+	<a href="https://github.com/cgdeeplearn/initgo/blame/master/header.svg">
+		<img src="header.svg" width="800" height="400">
+	</a>
+	<br>
+</div>
+
 使用`cookiecutter`初始化go项目模板
 
 [![Build Status](https://travis-ci.org/lacion/cookiecutter-golang.svg?branch=master)](https://travis-ci.org/lacion/cookiecutter-golang)
